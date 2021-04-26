@@ -1,0 +1,62 @@
+.main-container {
+  position:absolute;
+}
+
+.tetris-text-container {
+  position: fixed;
+
+  left: 27%;
+  top: 2%;
+
+  text-align: center;
+  font-family: Chopsic;
+  font-size: 400%;
+}
+
+.start-box {
+position: fixed;
+width: 232px;
+height: 57px;
+
+left: 41%;
+top: 50%;
+
+background: #E44A63;
+border: 1px solid #232438;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+font-family: Chopsic;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+transition-duration: 0.2s;
+}
+
+.start-box:hover {
+  background-color: #E78636;
+}
+
+a {
+  color: #232438;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+body {
+  background-color: #E5E5E5;
+}
